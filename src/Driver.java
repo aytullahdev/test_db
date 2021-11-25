@@ -12,7 +12,7 @@ public class Driver {
             con.setAutoCommit(false);
             System.out.println("Database Open");
             smt = con.createStatement();
-            String sql = "DELETE FROM user_information WHERE email = 'opu@gmil.com' ";
+            String sql = "DELETE FROM user_information WHERE email = 'kurshed@gmail.com' ";
             smt.executeUpdate(sql);
             smt.close();
             con.commit();
